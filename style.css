@@ -1,13 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&family=Roboto:wght@400;700&display=swap');
 body {
-    /* font-family: 'Fira Sans', sans-serif; */
+    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
+    color: #505965;
 }
 
-.datos {
-    background-color: #183153;
+
+/* navbar */
+
+.navbar {
+    text-transform: uppercase;
+    /* margin-top: 3.8rem; */
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, .6) !important;
+}
+
+.navbar-brand img {
+    height: 2rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
     color: white;
-    font-size: .7rem;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #FFD601;
+}
+
+
+/* slider */
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-caption {
+    font-family: 'Fira Sans', sans-serif;
+    position: absolute;
+    top: 38%;
+    text-transform: uppercase;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+.carousel-caption h1 {
+    font-size: 3.8rem;
+    font-weight: 800;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.carousel-caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.3rem;
+}
+
+.btn-lg:hover {
+    background-color: #ffd601;
+}
+
+
+/* promocion */
+
+.promocion {
+    background-color: #EEEEEE;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btn-md {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.1rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.btn-md:hover {
+    background-color: #e25424;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: 2rem;
 }
 
 
@@ -29,3 +121,23 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
+
+
+/*--- Bootstrap Mobile Gutter Fix --*/
+
+.row,
+.container-fluid {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+
+/*============= IMAGE SLIDER =============*/
+
+.carousel-item {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
