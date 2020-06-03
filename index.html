@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarResponsive">
 
     <!-- navbar -->
     <div id="home">
@@ -34,10 +34,10 @@
                         <a class="nav-link" href="#curso">Curso</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portafolio">Portafolio</a>
+                        <a class="nav-link" href="#equipo">Equipo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team">Team</a>
+                        <a class="nav-link" href="#portafolio">Portafolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contacto">Contacto</a>
@@ -90,92 +90,93 @@
     </div>
 
     <!-- Cursos -->
-    <div id="curso" class="offset promocion">
-        <div class="col-12 text-center">
+    <div id="curso">
+        <div class="col-12 text-center promocion">
             <h1>Cursos Frontend & Backend</h1>
             <p>Los mejores cursos para tu crecimiento profesional, cursos 100% practicos con los mejores profesionales!!!</p>
             <a href="#" class="btn btn-secondary btn-md">Aprende ya!!</a>
         </div>
-    </div>
-
-    <!-- ofertas -->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/cursos/git.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Git y GitHub</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Comenzar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/cursos/html.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Bootstrap</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Comenzar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/cursos/css.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">HTML y CSS</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Comenzar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/cursos/angular.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Angular</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Comenzar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/cursos/laravel.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Laravel</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Comenzar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/cursos/python.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Python</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Comenzar</a>
-                    </div>
-                </div>
-            </div>
 
 
+        <!-- ofertas -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/cursos/git.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Git y GitHub</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Comenzar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/cursos/html.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Comenzar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/cursos/css.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML y CSS</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Comenzar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/cursos/angular.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Angular</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Comenzar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/cursos/laravel.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Laravel</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Comenzar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/cursos/python.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Comenzar</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
     </div>
 
     <!-- Team -->
-    <div class="promocion">
+    <div id="equipo" class="promocion">
         <div class="col-12 text-center">
-            <h1>El mejor quipo de expertos!!</h1>
+            <h1>El mejor equipo de expertos!!</h1>
             <p>Nuestros profesores tiene amplia experiencia en el desarrollo de sistemas y aplicaciones</p>
 
         </div>
     </div>
 
-    <div id="team" class="container team">
+    <div class="container team">
         <div class="row">
             <div class="col-sm-12 col-md-3 text-center">
                 <img src="img/team/team-1.jpg" class="rounded-circle">
@@ -203,6 +204,62 @@
             </div>
         </div>
     </div>
+
+    <!-- portafolio -->
+    <div id="portafolio" class="promocion">
+        <div class="col-12 text-center">
+            <h1>Portafolio</h1>
+            <p>Algunos de nuestros proyectos funcionando</p>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row no-padding">
+            <div class="col-sm-4">
+                <div class="portafolio">
+                    <a href="img/portfolio/1.png" target="_blank">
+                        <img src="img/portfolio/1.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="portafolio">
+                    <a href="img/portfolio/2.png" target="_blank">
+                        <img src="img/portfolio/2.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="portafolio">
+                    <a href="img/portfolio/3.png" target="_blank">
+                        <img src="img/portfolio/3.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="portafolio">
+                    <a href="img/portfolio/4.png" target="_blank">
+                        <img src="img/portfolio/4.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="portafolio">
+                    <a href="img/portfolio/5.png" target="_blank">
+                        <img src="img/portfolio/5.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="portafolio">
+                    <a href="img/portfolio/6.png" target="_blank">
+                        <img src="img/portfolio/6.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Footer -->
     <footer>

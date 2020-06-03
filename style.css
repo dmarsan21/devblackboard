@@ -5,6 +5,9 @@ body {
     color: #505965;
 }
 
+
+/* quitar */
+
 .offset:before {
     height: 3.8rem;
     margin-top: -3.8rem;
@@ -155,6 +158,27 @@ body {
 
 .fa-whatsapp {
     color: #28AD00;
+}
+
+
+/* portafolio */
+
+.portafolio img {
+    max-width: 100%;
+    transition: transform .5s ease;
+}
+
+.row.no-padding [class*=col-] {
+    padding: 0;
+}
+
+.portafolio img:hover {
+    transform: scale(1.1);
+    cursor: zoom-in;
+}
+
+.portafolio {
+    overflow: hidden;
 }
 
 
