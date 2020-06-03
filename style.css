@@ -8,12 +8,13 @@ body {
 
 /* quitar */
 
-.offset:before {
+
+/* .offset:before {
     height: 3.8rem;
     margin-top: -3.8rem;
     content: "";
     display: block;
-}
+} */
 
 
 /* navbar */
