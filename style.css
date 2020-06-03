@@ -5,12 +5,19 @@ body {
     color: #505965;
 }
 
+.offset:before {
+    height: 3.8rem;
+    margin-top: -3.8rem;
+    content: "";
+    display: block;
+}
+
 
 /* navbar */
 
 .navbar {
     text-transform: uppercase;
-    /* margin-top: 3.8rem; */
+    /* margin-top: -3.8rem; */
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
@@ -85,6 +92,10 @@ body {
     padding-bottom: 2rem;
 }
 
+.promocion h1 {
+    text-transform: uppercase;
+}
+
 .btn-md {
     border-width: medium;
     border-radius: 0;
@@ -95,11 +106,138 @@ body {
 
 .btn-md:hover {
     background-color: #e25424;
+    border: 1px solid #e25424 !important;
 }
 
 .card {
     margin: 0 auto;
     margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* tean */
+
+.team {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.team img {
+    margin-top: 1.5rem;
+}
+
+.team h4 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-whatsapp {
+    font-size: 1.5rem;
+    margin: .4rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-whatsapp {
+    color: #28AD00;
+}
+
+
+/* fotter */
+
+footer {
+    background-color: #282828;
+    color: white;
+}
+
+hr.hr-footer {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+}
+
+footer .row {
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+.redes i {
+    color: white;
+}
+
+.redes i:hover {
+    color: #505965;
+}
+
+.redes-footer {
+    font-size: 2.5rem;
+    margin: .4rem;
+}
+
+.hr-100 {
+    border-top: 1px solid #d5d5d5;
+}
+
+
+/*--- Bootstrap Mobile Gutter Fix --*/
+
+.row,
+.container-fluid {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+
+/*============= IMAGE SLIDER =============*/
+
+.carousel-item {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+        letter-spacing: .12rem;
+        padding-bottom: .5rem;
+    }
+    .carousel-caption h3 {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+    .btn-lg {
+        font-size: 1rem;
+    }
+    .narrow h1 {
+        font-size: 1.5rem;
+    }
+    p.lead {
+        font-size: 1rem;
+    }
+    .promocion {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .promocion h1 {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -121,23 +259,3 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
-
-
-/*--- Bootstrap Mobile Gutter Fix --*/
-
-.row,
-.container-fluid {
-    margin-left: 0px!important;
-    margin-right: 0px!important;
-}
-
-
-/*============= IMAGE SLIDER =============*/
-
-.carousel-item {
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
